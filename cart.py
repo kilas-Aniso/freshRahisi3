@@ -3,7 +3,7 @@ class ShoppingCart:
         self.products = []
         self.quantity = quantity
         self.price = price
-          self.adress =address
+        self.address =address
         self.payment_method = payment_method
         self.price=price
         self.quantity=quantity
