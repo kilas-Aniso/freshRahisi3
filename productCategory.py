@@ -1,11 +1,14 @@
+import self.category = category
+
 class ProductCategory:
     def __init__(self, name, products):
         self.name = name
-        self.products = []  
+        self.products = []
+        
     def search_products(self, query):
         # method to search for products based on user's query
         results = []
-        for product in self.products:
+        for product in self.category.products:
             if query in product.name.lower():
         return product
     def filter_products(self, category):
