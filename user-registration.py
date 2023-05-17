@@ -4,7 +4,7 @@ class User:
         self.password = password
         self.email = email
     def register(self):
-        new_user = User()
+        new_user = User(self,name,password,email)
         return new_user
     def login(self, email, password):
         # method to authenticate user's login credentials
